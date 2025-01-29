@@ -21,6 +21,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    implementation 'jakarta.validation:jakarta.validation-api:3.1.0'
+    implementation 'jakarta.transaction:jakarta.transaction-api:2.0.1'
 }
 
 tasks.named('test') {
